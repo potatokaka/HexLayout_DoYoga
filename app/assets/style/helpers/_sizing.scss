@@ -1,60 +1,141 @@
-.h-subscribe {
-    height: 25rem !important; // 400px
+.sns-xl {
+    font-size: 3rem; // 48px
 }
+.sns-md {
+    font-size: 1.5rem; // 24px
+}
+
 .h-hero {
-    height: 30rem; // 480px
-}
-.h-card {
-    height: auto;
-
-    @include media-breakpoint-up(md) {
-        height: 21.875rem; // 350px
-    }
-}
-.h-avatar {
-    width: 8rem; // 128px
-    height: auto;
-}
-
-.h-recommend {
-    //height: auto;
-    height: 21.5625rem; // 345px
-
-    @include media-breakpoint-up(md) {
-        height: 21.875rem; // 350px
-    }
-}
-
-.w-recommend {
-    width: 100% !important;
-
-    @include media-breakpoint-up(md) {
-        width: 21.875rem !important; // 350px
-    }
-}
-.w-date {
-    width: 8rem;
-}
-.h-product-top {
-    height: 16rem; // 256px
-}
-.h-product-banner {
-    height: 25rem; // 400px
-}
-.h-product-pic {
     height: 35rem; // 560px
-}
-.w-input-amount {
-    width: 1.5rem !important; //24px
-
     @include media-breakpoint-up(md) {
-        width: 3rem !important; //48px
+        height: 36.375rem; // 582px
     }
 }
-.h-cart-thumb {
-    height: 7.5rem; // 120px
-    width: 7.5rem; // 120px
+.h-feature {
+    height: 26.25rem; //420px
+    @include media-breakpoint-up(md) {
+        height: 16.75rem; // 252px
+    }
+    @include media-breakpoint-up(lg) {
+        height: 26.25rem; //420px
+    }
 }
-.h-order-thumb {
-    height: 5.25rem; // 84px
+.h-teaching {
+    // width: 45rem; // 540px
+    height: 39.25rem; // 628px
 }
+.h-avatar-lg {
+    height: 5.875rem; // 94px
+    width: 5.875rem; // 94px
+}
+.h-avatar-md {
+    height: 4.25rem; // 68px
+    width: 4.25rem; // 68px
+}
+.h-avatar-sm {
+    height: 3.75rem; // 60px
+    width: 3.75rem; // 60px
+}
+
+.h-environment-lg {
+    height: 13.125rem; // 210px
+
+    @include media-breakpoint-up(md) {
+        height: 16.625rem; // 266px
+    }
+    @include media-breakpoint-up(lg) {
+        height: 27.75rem; // 444px
+    }
+}
+.h-environment-md {
+    height: 13.125rem; // 210px
+
+    @include media-breakpoint-up(md) {
+        height: 7.3125rem; // 117px
+    }
+    @include media-breakpoint-up(lg) {
+        height: 12.9375rem; // 207px
+    }
+}
+
+.h-courseIntro {
+    height: 13.625rem; //218px
+
+    @include media-breakpoint-up(md) {
+        height: 21.25rem; //340px
+    }
+}
+
+.h-map {
+    height: 12.1875rem; // 195px
+
+    @include media-breakpoint-up(md) {
+        height: 20.1875rem; // 323px
+    }
+    @include media-breakpoint-up(lg) {
+        height: 22.5rem; // 360px
+    }
+}
+
+.min-w-btn {
+    min-width: 3.75rem !important;
+}
+
+// OLD----------------------------------------------
+// .h-subscribe {
+//     height: 25rem !important; // 400px
+// }
+// .h-card {
+//     height: auto;
+
+//     @include media-breakpoint-up(md) {
+//         height: 21.875rem; // 350px
+//     }
+// }
+// .h-avatar {
+//     width: 8rem; // 128px
+//     height: auto;
+// }
+
+// .h-recommend {
+//     //height: auto;
+//     height: 21.5625rem; // 345px
+
+//     @include media-breakpoint-up(md) {
+//         height: 21.875rem; // 350px
+//     }
+// }
+
+// .w-recommend {
+//     width: 100% !important;
+
+//     @include media-breakpoint-up(md) {
+//         width: 21.875rem !important; // 350px
+//     }
+// }
+// .w-date {
+//     width: 8rem;
+// }
+// .h-product-top {
+//     height: 16rem; // 256px
+// }
+// .h-product-banner {
+//     height: 25rem; // 400px
+// }
+// .h-product-pic {
+//     height: 35rem; // 560px
+// }
+// .w-input-amount {
+//     width: 1.5rem !important; //24px
+
+//     @include media-breakpoint-up(md) {
+//         width: 3rem !important; //48px
+//     }
+// }
+// .h-cart-thumb {
+//     height: 7.5rem; // 120px
+//     width: 7.5rem; // 120px
+// }
+// .h-order-thumb {
+//     height: 5.25rem; // 84px
+// }

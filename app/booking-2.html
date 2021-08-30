@@ -1,0 +1,155 @@
+---
+title: EXHIBINECTION
+layout: ./app/layout-index.ejs
+engine: ejs
+current: booking-2
+display: ''
+---
+
+<!-- Course Plan -->
+<section>
+	<div class="container pt-17 pt-md-21 pb-27 pb-md-25 pb-lg-30">
+		<h2 class="fs-4 text-primary mb-11 mb-md-7 text-center fw-normal">立即預約</h2>
+
+		<div class="row mb-13 justify-content-center">
+			<div class="col-4 col-md-2">
+				<a href="booking-1.html" class="btn btn-tertiary py-5 rounded-4 w-100">選擇方案</a>
+			</div>
+			<div class="col-4 col-md-2">
+				<a href="booking-2.html" class="btn btn-tertiary py-5 rounded-4 w-100 active">填寫資料</a>
+			</div>
+			<div class="col-4 col-md-2">
+				<a href="booking-3.html" class="btn btn-tertiary py-5 rounded-4  w-100">完成預約</a>
+			</div>
+		</div>
+
+		<div class="row g-0">
+			<div class="d-flex justify-content-center align-items-center mb-11 mb-lg-13">
+				<span class="fs-8 text-gray-600 me-7">您選擇的是</span>
+				<h3 class="fs-6 fw-normal text-secondary">首次體驗課程-基礎</h3>
+			</div>
+			<div class="col-md-6 col-lg-4 mx-auto">
+				<form class="text-gray-600">
+
+					<div class="mb-13">
+						<p class="mb-7">1. 是否接觸過瑜珈?</p>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="haveExperience" id="inlineRadio1" value="withExperience" checked>
+							<label class="form-check-label" for="inlineRadio1">是</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="haveExperience" id="inlineRadio2" value="noExperience">
+							<label class="form-check-label" for="inlineRadio2">否</label>
+						</div>
+					</div>
+
+					<div class="mb-13">
+						<p class="mb-7">2. 想改善的生活問題?</p>
+						<div class="d-flex">
+							<div class="d-flex flex-column me-7">
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+									<label class="form-check-label" for="inlineCheckbox1">肌耐力不足</label>
+								</div>
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+									<label class="form-check-label" for="inlineCheckbox4">姿勢不正</label>
+								</div>
+							</div>
+							<div class="d-flex flex-column me-7">
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+									<label class="form-check-label" for="inlineCheckbox2">柔軟度不佳</label>
+								</div>
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+									<label class="form-check-label" for="inlineCheckbox5">睡眠品質差</label>
+								</div>
+							</div>
+							<div class="d-flex flex-column">
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+									<label class="form-check-label" for="inlineCheckbox3">壓力大</label>
+								</div>
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6">
+									<label class="form-check-label" for="inlineCheckbox6">注意力不足</label>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="mb-13">
+						<p class="mb-7">3. 每週累積運動量約為多少？</p>
+						<div class="d-flex">
+							<div class="d-flex flex-column me-7">
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="radio" name="weeklySportTime" id="inlineRadio1" value="sport-150min" checked>
+									<label class="form-check-label" for="inlineRadio1">150 分鐘以上</label>
+								</div>
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="radio" name="weeklySportTime" id="inlineRadio2" value="sport-30-75min">
+									<label class="form-check-label" for="inlineRadio2">30~75 分鐘</label>
+								</div>
+							</div>
+							<div class="d-flex flex-column me-7">
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="radio" name="weeklySportTime" id="inlineRadio3" value="sport-75-150min">
+									<label class="form-check-label" for="inlineRadio3">75~150 分鐘</label>
+								</div>
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="radio" name="weeklySportTime" id="inlineRadio4" value="sport-40min">
+									<label class="form-check-label" for="inlineRadio4">30 分鐘以下</label>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+
+					<div class="mb-13">
+						<p class="mb-1">4. 上課預約報到日</p>
+						<p class="fs-9 mb-3">若還沒有確定的日期，可以等待專員與您聯絡時再做詳細的諮詢哦！</p>
+						<input type="date" class="form-control" id="inputDate" aria-describedby="dateHelp">
+					</div>
+
+					<div>
+						<p class="mb-7">5. 填寫基本資料，完成預約後會寄送通知至電子信箱</p>
+						<div class="d-flex mb-7">
+							<div class="w-50 me-3">
+								<label for="inputName" class="form-label">姓名</label>
+								<input type="text" class="form-control" id="inputName" placeholder="請輸入您的姓名" aria-describedby="nameHelp">
+							</div>
+							<div class="w-50">
+								<label for="inputAge" class="form-label">年齡</label>
+								<input type="number" class="form-control" id="inputAge" placeholder="請輸入您的年齡" aria-describedby="ageHelp">
+							</div>
+						</div>
+
+						<div class="mb-7">
+							<label for="inputEmail1" class="form-label">性別</label>
+							<select class="form-select w-auto" aria-label="Default select example">
+								<option selected>女</option>
+								<option value="male">男</option>
+								<option value="non-binary">非二元</option>
+							</select>
+						</div>
+						<div class="mb-7">
+							<label for="inputEmail1" class="form-label">電子信箱</label>
+							<input type="email" class="form-control" id="inputEmail1" placeholder="email@example.com" aria-describedby="emailHelp">
+							<!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+						</div>
+						<div class="mb-13">
+							<label for="inputTel" class="form-label">手機號碼</label>
+							<input type="tel" class="form-control" id="inputTel" placeholder="0912-345-678" aria-describedby="emailHelp">
+						</div>
+					</div>
+
+					<button type="submit" class="btn btn-secondary btn-lg w-100">送出</button>
+				
+				</form>
+				
+			</div>
+		</div>
+
+	</div>
+</section>

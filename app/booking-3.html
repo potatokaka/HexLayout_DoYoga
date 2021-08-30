@@ -1,0 +1,68 @@
+---
+title: EXHIBINECTION
+layout: ./app/layout-index.ejs
+engine: ejs
+current: booking-3
+display: ''
+---
+
+<!-- Course Plan -->
+<section>
+	<div class="container pt-17 pt-md-21 pb-27 pb-md-25 pb-lg-30">
+		<h2 class="fs-4 text-primary mb-11 mb-md-7 text-center fw-normal">立即預約</h2>
+
+		<div class="row mb-13 justify-content-center">
+			<div class="col-4 col-md-2">
+				<a href="booking-1.html" class="btn btn-tertiary py-5 rounded-4 w-100">選擇方案</a>
+			</div>
+			<div class="col-4 col-md-2">
+				<a href="booking-2.html" class="btn btn-tertiary py-5 rounded-4 w-100">填寫資料</a>
+			</div>
+			<div class="col-4 col-md-2">
+				<a href="booking-3.html" class="btn btn-tertiary py-5 rounded-4 w-100 active">完成預約</a>
+			</div>
+		</div>
+
+		<div class="row mb-11">
+			<div class="text-center mb-13">
+				<i class="material-icons-outlined fs-1 text-primary mb-7 mb-md-9">check_circle</i>
+				<h3 class="fs-6 fw-normal text-primary">已完成預約，以下是您的預約資訊:</h3>
+			</div>
+			<div class="col-md-8 col-lg-6 mx-auto">
+				<div class="accordion" id="accordionExample">
+					<div class="accordion-item">
+						<h4 class="accordion-header" id="headingOne">
+							<button class="accordion-button bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								預約資訊
+							</button>
+						</h4>
+						<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+							<div class="accordion-body text-primary">
+								<div class="d-flex align-items-center mb-7">
+									<span class="fw-medium me-3">您預約的是</span>
+									<h3 class="fs-6 fw-medium text-secondary">首次體驗課程-基礎</h3>
+								</div>
+								<p class="mb-3">上課預約報到日：2021/07/21</p>
+								<p class="mb-3">預約人：Joanne Chen</p>
+								<p class="mb-3">年齡：18 歲</p>
+								<p class="mb-3">性別：女</p>
+								<p class="mb-3">電子信箱：example123@gmail.com</p>
+								<p class="mb-0">手機號碼：0912-345-678</p>
+							</div>
+						</div>
+					</div><!-- accordion-item -->
+				</div><!-- .accordion -->
+			</div>
+		</div><!-- .row -->
+
+		<div class="row">
+			<div class="col-md-6 col-lg-4 mx-auto text-primary">
+				<h5 class="fs-6 text-primary mb-3 text-center fw-normal">上課注意事項</h5>
+				<p class="mb-1">第一次上課請提前 10-15 分鐘至櫃檯報到，請攜帶毛巾、水 .穿著運動服、乾淨室內運動鞋。</p>
+				<p class="mb-13">如欲更改體驗時間請提前通知我們喔！</p>
+				<a href="index.html" class="btn btn-secondary btn-lg w-100 fs-6 fw-normal">返回首頁</a>
+			</div>
+		</div>
+
+	</div>
+</section>

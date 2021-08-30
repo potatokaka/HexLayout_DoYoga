@@ -1,6 +1,9 @@
-.bg{
+.bg {
     background-repeat: no-repeat;
     background-position: center center;
+}
+.bg-bottom {
+    background-position: bottom center;
 }
 .bg-cover {
     background-size: cover;
@@ -8,12 +11,15 @@
 .bg-fixed {
     background-attachment: fixed;
 }
-.bg-subscribe {
-    background-image: url(../images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg);
-}
+
 .bg-hero {
-    background-image: url(../images/ricardo-gomez-angel-UrOZTfXT0h0-unsplash-2.jpg);
+    background-image: url(../images/photo-1612157777902-5382bc6e864b.jpg);
 }
-.bg-video {
-    background-image: url(../images/people2.png);
-}
+
+
+// .bg-subscribe {
+//     background-image: url(../images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg);
+// }
+// .bg-video {
+//     background-image: url(../images/people2.png);
+// }

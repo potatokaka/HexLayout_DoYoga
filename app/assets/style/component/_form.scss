@@ -1,6 +1,8 @@
+.form-label {
+    color: $primary;
+}
 .form-control {
-    padding: 0.375rem 0.75rem; // 6px 12px
-    color: $gray-600;
+    color: $secondary;
 }
 
 // .form-control:disabled, .form-control[readonly] {
