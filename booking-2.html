@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>EXHIBINECTION</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+	<link rel="stylesheet" href="./assets/style/all.css">
+
+	<!-- Material Icons -->
+	<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+	
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<!-- Roboto -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+		<!-- Noto Sans -->
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	
+	<!-- Bootstrap Icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	
+	<!-- Swiper -->
+	<!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/> -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+	
+
+	<!-- AOS -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body class="position-relative">
+
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-tertiary">
+			<div class="container position-relative justify-content-between justify-content-lg-end">
+				<!-- Logo -->
+				<a href="index.html" class="position-lg-absolute top-0 top-lg-50 start-0 translate-middle-lg-y zindex-fixed">
+					<img class="logo" src="./assets/images/DOYOGA-logo.png" alt="logo-doyoga">
+				</a>
+				<!-- Hamburger -->
+				<button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<!-- <span class="navbar-toggler-icon"></span> -->
+					<i class="bi bi-justify icon-hamburger"></i>
+				</button>
+				<!-- Menu -->
+				<div class="collapse navbar-collapse position-lg-relative justify-content-lg-end" id="navbarSupportedContent">
+					<ul class="navbar-nav mb-2 mb-lg-0 position-lg-absolute top-lg-50 start-lg-50 translate-middle-lg">
+						<li class="nav-item me-13">
+							<a class="nav-link" href="course.html">課程介紹</a>
+						</li>
+						<li class="nav-item me-13">
+							<a class="nav-link" href="space.html">瑜珈空間</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="timetable.html">當月課表</a>
+						</li>
+					</ul>
+					<div class="d-flex justify-content-start justify-content-lg-end">
+						<a href="booking-1.html" class="btn btn-outline-primary btn-lg rounded-4 me-7">立即預約</a>
+						<a href="contact.html" class="btn btn-outline-primary btn-lg rounded-4">聯絡我們</a>
+					</div>
+				</div><!-- .collapse -->
+			</div>
+		</nav>
+	</header>
+	
+	<!-- SNS -->
+	<aside class="d-none d-lg-flex align-items-center position-fixed top-0 end-0 vh-100 me-7 zindex-fixed">
+		<ul class="list-unstyled">
+			<li>
+				<a class="mb-3" href="#" target="_blank">
+					<i class="fab fa-facebook sns-xl link-primary"></i>
+				</a>
+			</li>
+			<li>
+				<a class="mb-3" href="#" target="_blank">
+					<i class="fab fa-instagram sns-xl link-primary"></i>
+				</a>
+			</li>
+			<li>
+				<a class="mb-3" href="#" target="_blank">
+					<i class="fab fa-line sns-xl link-primary"></i>
+				</a>
+			</li>
+		</ul>
+	</aside>
+	
+	<main class="main">
+		
+<!-- Course Plan -->
+<section>
+	<div class="container pt-17 pt-md-21 pb-27 pb-md-25 pb-lg-30">
+		<h2 class="fs-4 text-primary mb-11 mb-md-7 text-center fw-normal">立即預約</h2>
+
+		<div class="row mb-13 justify-content-center">
+			<div class="col-4 col-md-2">
+				<a href="booking-1.html" class="btn btn-tertiary py-5 rounded-4 w-100">選擇方案</a>
+			</div>
+			<div class="col-4 col-md-2">
+				<a href="booking-2.html" class="btn btn-tertiary py-5 rounded-4 w-100 active">填寫資料</a>
+			</div>
+			<div class="col-4 col-md-2">
+				<a href="booking-3.html" class="btn btn-tertiary py-5 rounded-4  w-100">完成預約</a>
+			</div>
+		</div>
+
+		<div class="row g-0">
+			<div class="d-flex justify-content-center align-items-center mb-11 mb-lg-13">
+				<span class="fs-8 text-gray-600 me-7">您選擇的是</span>
+				<h3 class="fs-6 fw-normal text-secondary">首次體驗課程-基礎</h3>
+			</div>
+			<div class="col-md-6 col-lg-4 mx-auto">
+				<form class="text-gray-600">
+
+					<div class="mb-13">
+						<p class="mb-7">1. 是否接觸過瑜珈?</p>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="haveExperience" id="inlineRadio1" value="withExperience" checked>
+							<label class="form-check-label" for="inlineRadio1">是</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="haveExperience" id="inlineRadio2" value="noExperience">
+							<label class="form-check-label" for="inlineRadio2">否</label>
+						</div>
+					</div>
+
+					<div class="mb-13">
+						<p class="mb-7">2. 想改善的生活問題?</p>
+						<div class="d-flex">
+							<div class="d-flex flex-column me-7">
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+									<label class="form-check-label" for="inlineCheckbox1">肌耐力不足</label>
+								</div>
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+									<label class="form-check-label" for="inlineCheckbox4">姿勢不正</label>
+								</div>
+							</div>
+							<div class="d-flex flex-column me-7">
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+									<label class="form-check-label" for="inlineCheckbox2">柔軟度不佳</label>
+								</div>
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+									<label class="form-check-label" for="inlineCheckbox5">睡眠品質差</label>
+								</div>
+							</div>
+							<div class="d-flex flex-column">
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+									<label class="form-check-label" for="inlineCheckbox3">壓力大</label>
+								</div>
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6">
+									<label class="form-check-label" for="inlineCheckbox6">注意力不足</label>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="mb-13">
+						<p class="mb-7">3. 每週累積運動量約為多少？</p>
+						<div class="d-flex">
+							<div class="d-flex flex-column me-7">
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="radio" name="weeklySportTime" id="inlineRadio1" value="sport-150min" checked>
+									<label class="form-check-label" for="inlineRadio1">150 分鐘以上</label>
+								</div>
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="radio" name="weeklySportTime" id="inlineRadio2" value="sport-30-75min">
+									<label class="form-check-label" for="inlineRadio2">30~75 分鐘</label>
+								</div>
+							</div>
+							<div class="d-flex flex-column me-7">
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="radio" name="weeklySportTime" id="inlineRadio3" value="sport-75-150min">
+									<label class="form-check-label" for="inlineRadio3">75~150 分鐘</label>
+								</div>
+								<div class="form-check mb-7">
+									<input class="form-check-input" type="radio" name="weeklySportTime" id="inlineRadio4" value="sport-40min">
+									<label class="form-check-label" for="inlineRadio4">30 分鐘以下</label>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+
+					<div class="mb-13">
+						<p class="mb-1">4. 上課預約報到日</p>
+						<p class="fs-9 mb-3">若還沒有確定的日期，可以等待專員與您聯絡時再做詳細的諮詢哦！</p>
+						<input type="date" class="form-control" id="inputDate" aria-describedby="dateHelp">
+					</div>
+
+					<div>
+						<p class="mb-7">5. 填寫基本資料，完成預約後會寄送通知至電子信箱</p>
+						<div class="d-flex mb-7">
+							<div class="w-50 me-3">
+								<label for="inputName" class="form-label">姓名</label>
+								<input type="text" class="form-control" id="inputName" placeholder="請輸入您的姓名" aria-describedby="nameHelp">
+							</div>
+							<div class="w-50">
+								<label for="inputAge" class="form-label">年齡</label>
+								<input type="number" class="form-control" id="inputAge" placeholder="請輸入您的年齡" aria-describedby="ageHelp">
+							</div>
+						</div>
+
+						<div class="mb-7">
+							<label for="inputEmail1" class="form-label">性別</label>
+							<select class="form-select w-auto" aria-label="Default select example">
+								<option selected>女</option>
+								<option value="male">男</option>
+								<option value="non-binary">非二元</option>
+							</select>
+						</div>
+						<div class="mb-7">
+							<label for="inputEmail1" class="form-label">電子信箱</label>
+							<input type="email" class="form-control" id="inputEmail1" placeholder="email@example.com" aria-describedby="emailHelp">
+							<!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+						</div>
+						<div class="mb-13">
+							<label for="inputTel" class="form-label">手機號碼</label>
+							<input type="tel" class="form-control" id="inputTel" placeholder="0912-345-678" aria-describedby="emailHelp">
+						</div>
+					</div>
+
+					<button type="submit" class="btn btn-secondary btn-lg w-100">送出</button>
+				
+				</form>
+				
+			</div>
+		</div>
+
+	</div>
+</section>
+	</main>
+
+	<footer class="bg-primary text-white">
+		<div class="container py-13">
+			<div class="row justify-content-between">
+				<div class="col-md-6 mb-3">
+					<p class="fs-5 fs-lg-3 fw-medium">現在訂閱，獲得課程優惠碼！</p>
+				</div>
+				<div class="col-md-4">
+					<form class="d-flex">
+						<input class="form-control me-2 w-auto flex-grow-1" type="email" placeholder="輸入您的電子信箱" aria-label="email">
+						<button class="btn btn-secondary px-7 py-3" type="submit">訂閱</button>
+					</form>
+				</div>
+			</div>
+		</div><!-- .container -->
+		<div class="border-top py-13 position-relative">
+			<div class="container">
+				<div class="d-flex justify-content-between mb-3">
+					<a href="index.html">
+						<img class="logo" src="assets/images/DOYOGA.png" alt="logo-footer">
+					</a>
+					<ul class="list-unstyled d-flex">
+						<li>
+							<a class="me-3" href="#" target="_blank">
+								<i class="fab fa-facebook sns-md link-white"></i>
+							</a>
+						</li>
+						<li>
+							<a class="me-3" href="#" target="_blank">
+								<i class="fab fa-instagram sns-md link-white"></i>
+							</a>
+						</li>
+						<li>
+							<a class="me-0" href="#" target="_blank">
+								<i class="fab fa-line sns-md link-white"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="list-unstyled">
+					<li class="mb-3">
+						<a class="link-white fw-light" href="#">課程介紹</a>
+					</li>
+					<li class="mb-3">
+						<a class="link-white fw-light" href="#">瑜珈空間</a>
+					</li>
+					<li class="mb-3">
+						<a class="link-white fw-light" href="#">當月課表</a>
+					</li>
+				</ul>
+			</div>
+			<div class="container">
+				<p class="position-relative position-md-absolute bottom-md-0 start-md-50 translate-middle-md-x text-white mb-0 mb-md-13">© 2021. All Rights Reserved.</p>
+			</div>
+
+		</div><!-- .border-top -->
+	</footer>
+
+
+	<script src="./assets/js/vendors.js"></script>
+
+	<!-- Swiper JS -->
+	<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+	<script src="https://unpkg.com/swiper@7.0.1/swiper-bundle.min.js"></script>
+	
+	<!-- AOS Animation-->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	
+	<script src="./assets/js/all.js"></script>
+	
+</body>
+
+</html>
