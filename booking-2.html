@@ -28,6 +28,8 @@
 	<!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/> -->
 	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 	
+	<!-- Date Picker -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/css/datepicker.min.css/">
 
 	<!-- AOS -->
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -196,7 +198,10 @@
 					<div class="mb-13">
 						<p class="mb-1">4. 上課預約報到日</p>
 						<p class="fs-9 mb-3">若還沒有確定的日期，可以等待專員與您聯絡時再做詳細的諮詢哦！</p>
-						<input type="date" class="form-control" id="inputDate" aria-describedby="dateHelp">
+						<!-- <input type="date" class="form-control" id="inputDate" aria-describedby="dateHelp"> -->
+
+						<!-- Date Picker -->
+						<input type="text" class="form-control" placeholder="MM/DD/YYYY" name="datePicker">
 					</div>
 
 					<div>
@@ -305,6 +310,11 @@
 	<!-- Swiper JS -->
 	<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 	<script src="https://unpkg.com/swiper@7.0.1/swiper-bundle.min.js"></script>
+
+	<!-- Date Picker -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/js/datepicker.min.js"></script> -->
+	<script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/js/datepicker-full.min.js"></script>
+
 	
 	<!-- AOS Animation-->
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>

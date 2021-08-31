@@ -26937,40 +26937,16 @@ a {
   background: #907A7B !important;
 }
 
-.card-testimonial {
-  margin-bottom: 1rem !important;
-  height: 116px !important;
-  max-width: 345px !important;
+.primary {
+  color: #907A7B;
 }
 
-@media (min-width: 768px) {
-  .card-testimonial {
-    min-width: 330px !important;
-  }
+.datepicker-cell.selected, .datepicker-cell.selected:hover {
+  background-color: #907A7B;
 }
 
-@media (min-width: 992px) {
-  .card-testimonial {
-    min-width: 350px !important;
-  }
-}
-
-.card-spec {
-  margin-bottom: 1.5rem !important;
-  min-height: 215px !important;
-  max-width: 345px !important;
-}
-
-@media (min-width: 768px) {
-  .card-spec {
-    min-width: 330px !important;
-  }
-}
-
-@media (min-width: 992px) {
-  .card-spec {
-    min-width: 330px !important;
-  }
+.datepicker-picker {
+  color: #907A7B;
 }
 
 /*# sourceMappingURL=all.css.map */
