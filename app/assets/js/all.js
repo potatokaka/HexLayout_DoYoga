@@ -20,7 +20,7 @@ var swiper = new Swiper(".swiper-testimonial", {
 
 	breakpoints: {
 		768: {
-			slidesPerView: 2,
+			slidesPerView: 2.2,
 			grid: {
 				rows: 2,
 				fill: 'row',
@@ -40,11 +40,11 @@ var swiper = new Swiper(".swiper-testimonial", {
 
 // Swiper - Course Intro
 var swiper = new Swiper(".swiper-course-intro", {
-	slidesPerView: 2,
-	spaceBetween: 15,
+	slidesPerView: 1,
+	spaceBetween: 0,
 	grid: {
-		rows: 2,
-		fill: 'row',
+		rows: 3,
+		fill: 'column',
 	},
 	autoplay: {
 		delay: 3000,
@@ -52,35 +52,7 @@ var swiper = new Swiper(".swiper-course-intro", {
 	},
 	breakpoints: {
 		768: {
-			slidesPerView: 2,
-			grid: {
-				rows: 2,
-				fill: 'row',
-			},
-			spaceBetween: 30,
-		},
-		992: {
-			slidesPerView: 1.5,
-			grid: {
-				rows: 1,
-				fill: 'row',
-			},
-			spaceBetween: 30,
-		},
-	},
-});
-
-// Swiper - Course Spec
-var swiper = new Swiper(".swiper-course-spec", {
-	slidesPerView: 1,
-	spaceBetween: 0,
-	grid: {
-		rows: 3,
-		fill: 'column',
-	},
-	breakpoints: {
-		768: {
-			slidesPerView: 2.5,
+			slidesPerView: 2.1,
 			grid: {
 				rows: 1,
 				fill: 'row',
@@ -93,10 +65,86 @@ var swiper = new Swiper(".swiper-course-spec", {
 				rows: 1,
 				fill: 'row',
 			},
-			spaceBetween: 20,
+			spaceBetween: 30,
 		},
 	},
 });
+
+// Swiper - Teachers
+var swiper = new Swiper(".swiper-teachers", {
+	slidesPerView: 1,
+	spaceBetween: 0,
+	grid: {
+		rows: 4,
+		fill: 'column',
+	},
+	autoplay: {
+		delay: 3000,
+		disableOnInteraction: false,
+	},
+
+	breakpoints: {
+		768: {
+			slidesPerView: 2.2,
+			grid: {
+				rows: 1,
+				fill: 'row',
+			},
+			spaceBetween: 30,
+		},
+		992: {
+			slidesPerView: 3,
+			grid: {
+				rows: 1,
+				fill: 'row',
+			},
+			spaceBetween: 30,
+		},
+	},
+});
+
+// Swiper - Recommendation
+var swiper = new Swiper(".swiper-recommendation", {
+	slidesPerView: 1.2,
+	spaceBetween: 30,
+	grid: {
+		rows: 1,
+		fill: 'row',
+	},
+	autoplay: {
+		delay: 3000,
+		disableOnInteraction: false,
+	},
+	breakpoints: {
+		768: {
+			slidesPerView: 3,
+			grid: {
+				rows: 1,
+				fill: 'row',
+			},
+			spaceBetween: 30,
+		},
+		992: {
+			slidesPerView: 4.2,
+			grid: {
+				rows: 1,
+				fill: 'row',
+			},
+			spaceBetween: 30,
+		},
+	},
+});
+
+// Date Picker
+const elem = document.querySelector('input[name="datePicker"]');
+const datepicker = new Datepicker(elem, {
+  // ...options
+  autohide: true,
+  nextArrow: '>',
+  prevArrow: '<',
+  buttonClass: 'btn primary',
+  todayHighlight: true,
+}); 
 
 
 // AOS Animation

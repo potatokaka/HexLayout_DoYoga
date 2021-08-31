@@ -30,28 +30,28 @@
 }
 
 // 卡片尺寸
-.card-testimonial {
-    margin-bottom: 1rem !important;
-    height: 116px !important;
-    max-width: 345px !important;
+// .card-testimonial {
+//     margin-bottom: 1rem !important;
+//     height: 116px !important;
+//     max-width: 345px !important;
 
-    @include media-breakpoint-up(md) {
-        min-width: 330px !important;
-    }
-    @include media-breakpoint-up(lg) {
-        min-width: 350px !important;
-    }
-}
+//     @include media-breakpoint-up(md) {
+//         min-width: 330px !important;
+//     }
+//     @include media-breakpoint-up(lg) {
+//         min-width: 350px !important;
+//     }
+// }
 
-.card-spec {
-    margin-bottom: 1.5rem !important;
-    min-height: 215px !important;
-    max-width: 345px !important;
+// .card-spec {
+//     margin-bottom: 1.5rem !important;
+//     min-height: 215px !important;
+//     max-width: 345px !important;
 
-    @include media-breakpoint-up(md) {
-        min-width: 330px !important;
-    }
-    @include media-breakpoint-up(lg) {
-        min-width: 330px !important;
-    }
-}
+//     @include media-breakpoint-up(md) {
+//         min-width: 330px !important;
+//     }
+//     @include media-breakpoint-up(lg) {
+//         min-width: 330px !important;
+//     }
+// }
