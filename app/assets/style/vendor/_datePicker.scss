@@ -7,3 +7,13 @@
 .datepicker-picker{
     color: #907A7B;
 }
+
+.datepicker-cell.today.focused:not(.selected) {
+    background-color: $secondary !important;
+}
+.datepicker-cell.today:not(.selected) {
+    background-color: $secondary !important;
+}
+.datepicker-cell.selected, .datepicker-cell.selected:hover {
+    background-color: $primary !important;
+}
