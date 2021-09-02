@@ -26949,4 +26949,16 @@ a {
   color: #907A7B;
 }
 
+.datepicker-cell.today.focused:not(.selected) {
+  background-color: #C0A4A5 !important;
+}
+
+.datepicker-cell.today:not(.selected) {
+  background-color: #C0A4A5 !important;
+}
+
+.datepicker-cell.selected, .datepicker-cell.selected:hover {
+  background-color: #907A7B !important;
+}
+
 /*# sourceMappingURL=all.css.map */
