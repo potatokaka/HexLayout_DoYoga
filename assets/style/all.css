@@ -26500,6 +26500,10 @@ a {
   transition: all .3s ease-in !important;
 }
 
+i {
+  display: block !important;
+}
+
 .sns-xl {
   font-size: 3rem;
 }
